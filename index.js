@@ -30,6 +30,6 @@ console.log(fareDoubler(100));
 const fareTripler = createFareMultiplier(3);
 console.log(fareTripler(100));
 
-function selectDifferentDrivers(arrayOfDrivers, selectingFunction) {
-    return selectingFunction(arrayOfDrivers);
+function selectDifferentDrivers(arrayOfDrivers, aFunction) {
+    return aFunction(arrayOfDrivers);
 };
